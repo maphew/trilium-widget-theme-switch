@@ -1,0 +1,46 @@
+/* Switch */
+.theme-selection.component                                              { display: inline-block; width: 60px; height: 40px; margin-bottom: 0px;}
+.theme-selection.component .switch                                      { position: relative;    width: 60px; height: 27px; font-size: 150%; top: 2.75px; }
+.theme-selection.component .switch input                                { opacity: 0; width: 0; height: 0; }
+.theme-selection.component:hover input:checked + .slider                { background-color: var(--background-hover-dark); }
+.theme-selection.component input:checked + .slider                      { background-color: var(--background-dark); }
+.theme-selection.component input:checked + .slider::before              { background-color: var(--slider-dark); transform: translateX(33px); }
+.theme-selection.component input:not(:checked) ~ .slider .light-icon,
+.theme-selection.component input:checked       ~ .slider .dark-icon     { opacity: 1; }
+.theme-selection.component .slider                                      { position: absolute; cursor: pointer; 
+                                                                          top: 0; left: 0; right: 0; bottom: 0; border-radius: 7px;
+                                                                          background-color: var(--background-light); transition: .4s; }
+.theme-selection.component:hover .slider                                { background-color: var(--background-hover-light); }
+.theme-selection.component .slider::before                              { position: absolute; content: ""; z-index: 2;
+                                                                          height: 21px; width: 21px; left: 3px; bottom: 3px; border-radius: 7px;
+                                                                          background-color: var(--slider-light); transition: .4s; }
+
+.theme-selection.component .dark-icon, .light-icon                      { position: absolute; top: 0px; height: 24px; width: 24px;
+                                                                          opacity: 0; transition: opacity 400ms ease, color 400ms ease;
+                                                                          pointer-events: none; }
+.theme-selection.component .dark-icon                                   { left:  5px; color: var(--icon-dark); }
+.theme-selection.component .light-icon                                  { right: 5px; color: var(--icon-light); }
+
+
+/* Button */
+.title-bar-buttons                              { flex-shrink: 0; }
+.title-bar-buttons div.theme-btn button         { border: none !important; border-radius: 0; 
+                                                  background: none !important; font-size: 150%; height: 40px; width: 40px;
+                                                  display: flex; align-items: center; justify-content: center; }
+.title-bar-buttons div.theme-btn:hover button   { background-color: var(--accented-background-color) !important; }
+.title-bar-buttons div.theme-btn                { pointer-events: auto; display: inline-block; height: 40px; width: 40px; }
+.title-bar-buttons .theme-btn .btn,
+.title-bar-buttons .theme-btn .btn:focus        { outline: 0; box-shadow: none; }
+    
+
+/* Colors */
+.theme-selection.component {
+    --background-dark:          var(--inactive-tab-background-color); 
+    --background-light:         var(--inactive-tab-background-color); 
+    --background-hover-dark:    var(--active-tab-background-color); 
+    --background-hover-light:   var(--active-tab-background-color); 
+    --icon-dark:                var(--left-pane-text-color);
+    --icon-light:               var(--left-pane-text-color);
+    --slider-dark:              var(--active-tab-text-color); 
+    --slider-light:             var(--left-pane-text-color); 
+}

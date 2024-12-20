@@ -1,0 +1,280 @@
+{
+	"formatVersion": 2,
+	"appVersion": "0.62.6",
+	"files": [
+		{
+			"noteId": "96BXLqx9CLIu",
+			"notePath": [
+				"96BXLqx9CLIu"
+			],
+			"isClone": false,
+			"title": "Theme Switch",
+			"notePosition": 10,
+			"prefix": null,
+			"isExpanded": true,
+			"type": "code",
+			"mime": "application/javascript;env=frontend",
+			"dataFileName": "Theme Switch.js",
+			"dirFileName": "Theme Switch",
+			"noImport": false,
+			"attributes": [
+				{
+					"type": "label",
+					"name": "hideChildrenOverview",
+					"value": "",
+					"isInheritable": false,
+					"position": 10
+				},
+				{
+					"type": "label",
+					"name": "iconClass",
+					"value": "bx bx-paint-roll",
+					"isInheritable": false,
+					"position": 20
+				}
+			],
+			"attachments": [],
+			"children": [
+				{
+					"noteId": "FICgmlQQE9C3",
+					"notePath": [
+						"96BXLqx9CLIu",
+						"FICgmlQQE9C3"
+					],
+					"isClone": false,
+					"title": "configuration",
+					"notePosition": 10,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "application/javascript;env=frontend",
+					"dataFileName": "configuration.js",
+					"noImport": false,
+					"attributes": [
+						{
+							"type": "label",
+							"name": "color",
+							"value": "green",
+							"isInheritable": false,
+							"position": 10
+						}
+					],
+					"attachments": []
+				},
+				{
+					"noteId": "zPi8Pdic8frR",
+					"notePath": [
+						"96BXLqx9CLIu",
+						"zPi8Pdic8frR"
+					],
+					"isClone": false,
+					"title": "lib",
+					"notePosition": 20,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "application/javascript;env=frontend",
+					"dataFileName": "lib.js",
+					"noImport": false,
+					"attributes": [
+						{
+							"type": "label",
+							"name": "color",
+							"value": "gray",
+							"isInheritable": false,
+							"position": 10
+						}
+					],
+					"attachments": []
+				},
+				{
+					"noteId": "KucPFtYwQTyi",
+					"notePath": [
+						"96BXLqx9CLIu",
+						"KucPFtYwQTyi"
+					],
+					"isClone": false,
+					"title": "css",
+					"notePosition": 30,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/css",
+					"dataFileName": "css.css",
+					"noImport": false,
+					"attributes": [
+						{
+							"type": "label",
+							"name": "disableInclusion",
+							"value": "",
+							"isInheritable": false,
+							"position": 10
+						},
+						{
+							"type": "label",
+							"name": "color",
+							"value": "gray",
+							"isInheritable": false,
+							"position": 20
+						}
+					],
+					"attachments": []
+				},
+				{
+					"noteId": "VJnpg9hUTvfM",
+					"notePath": [
+						"96BXLqx9CLIu",
+						"VJnpg9hUTvfM"
+					],
+					"isClone": false,
+					"title": "installer",
+					"notePosition": 40,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "application/javascript;env=frontend",
+					"dataFileName": "installer.js",
+					"noImport": false,
+					"attributes": [
+						{
+							"type": "label",
+							"name": "disableInclusion",
+							"value": "",
+							"isInheritable": false,
+							"position": 10
+						},
+						{
+							"type": "label",
+							"name": "readOnly",
+							"value": "",
+							"isInheritable": false,
+							"position": 20
+						},
+						{
+							"type": "label",
+							"name": "installed",
+							"value": "",
+							"isInheritable": false,
+							"position": 30
+						}
+					],
+					"attachments": []
+				},
+				{
+					"noteId": "8lYeTDFHsLUV",
+					"notePath": [
+						"96BXLqx9CLIu",
+						"8lYeTDFHsLUV"
+					],
+					"isClone": false,
+					"title": "html",
+					"notePosition": 50,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/html",
+					"dataFileName": "html.html",
+					"noImport": false,
+					"attributes": [
+						{
+							"type": "label",
+							"name": "disableInclusion",
+							"value": "",
+							"isInheritable": false,
+							"position": 10
+						},
+						{
+							"type": "label",
+							"name": "color",
+							"value": "gray",
+							"isInheritable": false,
+							"position": 20
+						}
+					],
+					"attachments": []
+				},
+				{
+					"noteId": "fBdwCpKyn8br",
+					"notePath": [
+						"96BXLqx9CLIu",
+						"fBdwCpKyn8br"
+					],
+					"isClone": false,
+					"title": "dropdown",
+					"notePosition": 60,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/html",
+					"dataFileName": "dropdown.html",
+					"noImport": false,
+					"attributes": [
+						{
+							"type": "label",
+							"name": "disableInclusion",
+							"value": "",
+							"isInheritable": false,
+							"position": 10
+						},
+						{
+							"type": "label",
+							"name": "color",
+							"value": "gray",
+							"isInheritable": false,
+							"position": 20
+						}
+					],
+					"attachments": []
+				},
+				{
+					"noteId": "qQj3I8t2iM6q",
+					"notePath": [
+						"96BXLqx9CLIu",
+						"qQj3I8t2iM6q"
+					],
+					"isClone": false,
+					"title": "changelog",
+					"notePosition": 70,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "text/x-markdown",
+					"dataFileName": "changelog.mkd",
+					"noImport": false,
+					"attributes": [],
+					"attachments": []
+				},
+				{
+					"noteId": "EEV51uGYa7DJ",
+					"notePath": [
+						"96BXLqx9CLIu",
+						"EEV51uGYa7DJ"
+					],
+					"isClone": false,
+					"title": "new note",
+					"notePosition": 80,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "code",
+					"mime": "application/javascript;env=frontend",
+					"dataFileName": "new note.js",
+					"noImport": false,
+					"attributes": [],
+					"attachments": []
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}
